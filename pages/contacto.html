@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--link fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+  <!--link Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!--link css-->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <title>Contacto</title>
+</head>
+
+<body>
+<!-- 
+  <header>
+
+    <div class="container">
+      <a href="../index.html"> <img src="../img/logojusticia.png" class="img-fluid" alt="logo"></a>
+      <a class="d dt-sc-bordered-button mt-4 p-2 bg-colorpersonal " id="uno" href=""> R.Heller - Law group </a>
+    </div>
+  </header> -->
+
+  <nav class="navbar navbar-expand-lg  bg-body-tertiary margin lead" id="navClass">
+    <div class="container-fluid  d-flex justify-content-center" id="navBar">
+      <a class="navbar-brand py-md-4 text-personal text-white" href="../index.html">Inicio</a>
+      <button class="navbar-toggler  bg-colorpersonal2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link btn-personal text-personal" aria-current="page"
+              href="../pages/areasdepractica.html">Consultoría estratégica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-personal text-personal" href="../pages/contacto.html">Marketing digital</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link btn-personal text-personal" href="../pages/socios.html" role="button">Staff</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!--main tabs-->
+  <div class="main">
+    <!--tabs-->
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+          type="button" role="tab" aria-controls="pills-home" aria-selected="true">Ubicacion</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+          type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Detalle de contacto</button>
+      </li>
+    </ul>
+    <div class="tab-content " id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+        tabindex="0">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d884441.4019779724!2d-122.01968440120002!3d36.73545908525066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1680483356721!5m2!1ses!2sar"
+          class="ubicacion  p-3" style="container-fluid" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <p>
+        <span></span>
+        <span></span>
+        <span></span>
+      </p>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+      <section>
+
+        <div class="container" id="contenedor-formulario">
+          <div id="titulo-formulario" class="text-center mb-4">
+            <div><img src="../img/logo.png" alt="soporte" class="img-fluid"></div>
+            <h2>Contactanos</h2>
+            <p class="fs-5">Estamos aquí para hacer valer tus derechos</p>
+
+            <div>
+              <form action="">
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="email" placeholder="Escriba su e-mail" required>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="nombre" placeholder="Escriba su nombre y apellido"
+                    required>
+                </div>
+                <div class="mb-3">
+                  <input type="tel" class="form-control" id="tel" placeholder="Escriba su telefono" required>
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Dejenos su consulta"></textarea>
+                </div>
+                <div class="mb-3">
+                  <button type="button" class="btn btn-primary
+             w-100 fs-5">Enviar consulta</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      </section>
+    </div>
+
+  </div>
+
+  <!--Formulario-->
+
+
+  <footer>
+    <div class="footer">
+      <h3>ESTUDIO HELLER & ASOCIADOS</h3>
+      <div>DETALLES DE CONTACTO</div>
+      <div class="linea"></div>
+      <div class="linea"></div>
+      <p><i class="bi bi-telephone-fill"></i><span>Telefono:</span><span>02914747292/02914947473</span></p>
+      <h4><i class="bi bi-envelope-fill"></i><span>Email:</span><span>EstudioHeller@gmail.com</span></h4>
+      <div><i class="bi bi-arrow-down-right-circle-fill">Av. Córdoba 966 3F, ROSARIO</i></div>
+      <div>Todos los Derechos Reservados&copy;</div>
+      <div>
+        <h4>WebDeveloper WalterVZ</h4>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--links Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
