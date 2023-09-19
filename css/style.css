@@ -16,18 +16,18 @@
     from {
         opacity: 0;
         transform: translateX(-100%);
-        /* Inicialmente fuera de la vista a la izquierda */
+       
     }
 
     to {
         opacity: 1;
         transform: translateX(0);
-        /* Deslízate hacia la posición original */
+       
     }
 }
 
 .navbar-brand img {
-    width: 90px; /* Ajusta el ancho de la imagen según tus necesidades */
+    width: 90px; 
     margin-right: 10px; /* Espacio entre la imagen y el texto "Inicio" */
     border:3px solid #cccccc;
     border-radius: 50%;
@@ -40,6 +40,7 @@
 
 #navClass {
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
 }
 
 .btn-personal {
@@ -84,13 +85,13 @@
     from {
         opacity: 0;
         transform: translateX(100%);
-        /* Inicialmente fuera de la vista a la izquierda */
+       
     }
 
     to {
         opacity: 1;
         transform: translateX(0);
-        /* Deslízate hacia la posición original */
+        
     }
 }
 
@@ -107,15 +108,16 @@
 
 .image-box {
     max-width: 50%;
-    /* Cambiar según lo necesites */
     flex: 1;
     margin-right: 20px;
 }
 
 .despacho {
+    margin-top: 1em;
     max-width: 100%;
     max-height: 100%;
     border: 4px solid #666666;
+  
 }
 
 .text-box {
@@ -128,7 +130,7 @@
 }
 
 /* CARROUSEL */
-/* Agrega estos estilos para centrar las imágenes en el carrusel */
+
 
 
 .swiper-slide img {
@@ -170,37 +172,32 @@
         opacity: 0;
     }
 
-    /* Comienza con opacidad 0 (invisible) */
     50% {
         opacity: 1;
     }
 
-    /* Llega a opacidad 1 (totalmente visible) a la mitad de la animación */
     100% {
         opacity: 0;
     }
 
-    /* Termina nuevamente con opacidad 0 (invisible) */
 }
 
 .logo2 {
     animation: fade 5s ease-in-out infinite;
-    /* Duración de la animación de 3 segundos, repetición infinita */
+   
 }
 
 #pills-tab .nav-link,
 #pills-tab .button-custom {
     background-color: #198754;
     color: aliceblue;
-    /* background-color:#D1C5A5;
-    color: #7c5969; */
+
 }
 
 #pills-tab .nav-link.active {
     background-color: #093521;
     color: aliceblue;
-    /* background-color: #8d1812;
-    color: #cccccc; */
+
 }
 
 .button-custom:hover {
@@ -210,8 +207,8 @@
 }
 
 #seccion-contacto {
-    background-color: #001F3F;
-    /* background-color:  #A38A5F; */
+    background-color:whitesmoke;
+    color:#001F3F;
     min-height: 400px;
     min-width: 400px;
     position: relative;
@@ -221,18 +218,20 @@
 }
 
 #seccion-contacto:hover {
-    background-color: #001f3fa8;
-    /* background-color: #4D3339; */
-    transition: 2s;
+    background-color: #001f3f;
+    transition: 1s;
 }
 
 .text-2 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: aliceblue;
+    color: #001F3F;
+    font-family: 'Montserrat', sans-serif;
 }
-
+.text-2:hover{
+    color: whitesmoke;
+}
 .text-3 {
     display: flex;
     flex-direction: column;
@@ -316,7 +315,7 @@
 .footer1 {
     width: 100%;
     height: 530px;
-    background-image: linear-gradient(#001F3F, #6699CC);
+    background-color: #001f3f;
     margin-top: 0em;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -327,30 +326,35 @@
 .footer {
     width: 100%;
     height: 500px;
-    background-image: linear-gradient(#001F3F, #6699CC);
+    background-color: #001f3f;
     padding: 1em;
     font-family: ;
-    color: #D1C5A5;
+    color: #ffffff;
     text-align: center;
 
 }
 
 .footer:hover {
-    color: whitesmoke;
-    transition: 2s linear;
+    color: #cccccc;
+    transition: 1s linear;
 }
 
 .footer div h4 {
+   
+    }
+.footer div h4 a{
     font-family: 'Roboto', sans-serif;
-    color: #198754;
+    
     font-weight: bold;
     margin: 100px;
     cursor: pointer;
+    text-decoration: none;
+    color: #198754;
 
 }
-
-.footer div h4:hover {
-    color: #093521;
+.footer div h4 a:hover {
+    
+    color: #17c200;
 }
 
 
@@ -501,7 +505,9 @@
 .column br {
     display: none; /* Oculta el salto de línea */
   }
-
+  h6 + h6 {
+    margin-top: -0.5em; 
+  }
 /*CONTACTO*/
 
 /* .imgContacto {
