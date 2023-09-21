@@ -310,8 +310,6 @@
     }
     
 
-
-
 .footer1 {
     width: 100%;
     height: 530px;
@@ -339,9 +337,6 @@
     transition: 1s linear;
 }
 
-.footer div h4 {
-   
-    }
 .footer div h4 a{
     font-family: 'Roboto', sans-serif;
     
@@ -561,7 +556,7 @@
 /* Media Queries */
 
 @media(max-width:768px) {
-
+/* INDEX */
     .container.animate__backInLeft {
         flex-direction: column;
         align-items: center;
@@ -573,29 +568,17 @@
         max-height: auto;
     }
 
-    #uno {
-        width: 100%;
-        padding: 10px;
-        /* Añade un poco de espacio alrededor del botón */
-        margin-top: 10px;
-        text-align: center;
-        font-size: 16px;
-        /* Ajusta el tamaño de fuente */
+    #uno{
+        display: none;
     }
-
 
     .navbar-toggler {
         background-color: #198754;
     }
 
     .navbar-toggler-icon {
-        background-color: aliceblue;
+        background-color: #198754;
     }
-
-
-    /* .bg-colorpersonal {
-        display: none;
-    } */
 
 
     .flex-container {
@@ -612,10 +595,8 @@
         max-width: 100%;
     }
 
-
     .container {
         display: inline-block;
-
         align-items: center;
         justify-content: center;
         justify-items: center;
@@ -628,8 +609,39 @@
         text-align: center;
     }
 
+    .despacho{
+        max-width: 150%;
+        max-height: none;
+        /* width: 500px; */
+        height: 300px;
+        margin-bottom: 2em;
+        margin-left: -3em;
+    }
+
+    .text-box{
+        text-align: center;
+    }
+
+    .logo2{
+        padding-left: 0%;
+    }
+
+    #seccion-contacto{
+        margin-left: 0%;
+    }
+    
+.contact-container {
+    max-width: 100%;
+    font-size: 1.5em;
 }
 
+/* seccion Staff */
+
+
+
+
+}
+/* 
 .servicio-fila {
     width: 100% !important;
     text-align: center;
@@ -648,11 +660,7 @@
 
 /* parrafo de contacto*/
 
-.contact-container {
-    max-width: 100%;
-}
-
-#contenedor-formulario {
+/* #contenedor-formulario {
     background-color: #6699cc6c;
     border-radius: 5px;
     padding-top: 1em    ;
@@ -661,7 +669,4 @@
     justify-self: center;
     align-items: center;
 }
-
-/* #seccion-contacto {
-    margin: ;
-} */
+ */
