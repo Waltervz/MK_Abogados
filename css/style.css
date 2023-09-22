@@ -263,26 +263,29 @@
     background-color: #8d1812;
 
 }
-.container {
+.containerMap {
     display: flex;
     flex-direction: row; 
     justify-content: space-between; 
     flex-wrap: wrap; 
+    margin-left: 4em;
+    margin-right: 4em;
   }
   
   .map-container {
+    
     flex: 1;
-    max-width: 45%; 
+    max-width: 80%; 
   }
     
   
 .contact-container {
     display: flex;
     flex: 1; 
-    max-width: 45%; 
+    max-width: 100%; 
     justify-content: center;
     align-items: center;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 0px;
     height: 100vh;
@@ -292,15 +295,15 @@
 
 }
 
-
 .contact-p {
         background: radial-gradient(circle at center, #3498db, #297fb980);
         border-radius: 20px;
+        margin-top: 2em;
         border: 5px solid #1d5d43; 
         box-sizing: border-box;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
-        color: #e0e0e0;
+        color: #c0bdbd;
         font-style: italic;
 
       }
@@ -426,6 +429,17 @@
     justify-content: flex-end
 }
 
+    /*contacto */
+#contenedor-formulario {
+    background-color: #6699cc6c;
+    border-radius: 5px;
+    padding-top: 1em    ;
+    color:black;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
 /*Sus Socios*/
 #tituloSocios {
     
@@ -456,11 +470,22 @@
   }
 
   ol {
-    list-style-type: decimal;
-    margin-left: 0.5em;
+    list-style-type:none;
+   
   }
   
-
+  ol li::before {
+    content: "\2022"; /* Utiliza el carácter de viñeta (•) */
+    display: inline-block;
+    width: 10px; /* Ancho del círculo */
+    height: 10px; /* Altura del círculo */
+    margin-right: 1.5em; /* Espacio entre el círculo y el texto del elemento */
+    border-radius: 50%; /* Aplica borde redondeado para hacerlo circular */
+    background-color: #3498db; /* Color de relleno del círculo */
+    color: transparent; /* Hace que el contenido del círculo sea transparente */
+    text-align: center; /* Centra el carácter de viñeta verticalmente */
+    line-height: 10px; /* Ajusta la altura de línea para centrar verticalmente */
+  }
   
 .containerSocios {
     max-width: 1200px;
@@ -503,26 +528,6 @@
   h6 + h6 {
     margin-top: -0.5em; 
   }
-/*CONTACTO*/
-
-/* .imgContacto {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0%;
-    max-width: 100%;
-    max-height: 100%;
-    border: #4d3339;
-    border-style: solid;
-} */
-
-.main {
-    height: auto;
-    width: auto;
-    background-image: url('../img/Background.jpg');
-    background-size: cover;
-}
 
 
 .ubicacion {
@@ -533,14 +538,6 @@
 
 }
 
-/* button.custom-button {
-    background-color: #8C873E;
-    color: #8d1812;
-} */
-
-/* .custom-button:hover {
-    background-color: #4c7296;
-} */
 
 .centered-list {
     text-align: center;
@@ -619,6 +616,7 @@
     }
 
     .text-box{
+        padding-top: 1em;
         text-align: center;
     }
 
@@ -633,13 +631,23 @@
 .contact-container {
     max-width: 100%;
     font-size: 1.5em;
-}
-
+    }
+    
+    #contenedor-formulario {
+        background-color: #6699cc6c;
+        border-radius: 5px;
+        padding-top: 1em    ;
+        color:black;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
 /* seccion Staff */
-
-
-
-
+    .containerSocios{
+        display: flex;
+        flex-direction: column;
+        gap: 15em;
+    }
 }
 /* 
 .servicio-fila {
