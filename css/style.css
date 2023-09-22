@@ -342,7 +342,6 @@
 
 .footer div h4 a{
     font-family: 'Roboto', sans-serif;
-    
     font-weight: bold;
     margin: 100px;
     cursor: pointer;
@@ -623,15 +622,24 @@
     .logo2{
         padding-left: 0%;
     }
+    /*seccion contacto*/
 
-    #seccion-contacto{
+     #seccion-contacto{
         margin-left: 0%;
     }
+
+    .containerMap{
+        margin-left: 0%;
     
-.contact-container {
+    }
+
+  
+    .contact-container{
+    margin-top: 6em;
     max-width: 100%;
     font-size: 1.5em;
-    }
+    margin-left: 22%;
+    } 
     
     #contenedor-formulario {
         background-color: #6699cc6c;
@@ -648,6 +656,12 @@
         flex-direction: column;
         gap: 15em;
     }
+
+    .footer div h4 a{
+        text-align: center;
+        font-size: 10px;
+    }
+
 }
 /* 
 .servicio-fila {
