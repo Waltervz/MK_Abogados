@@ -57,6 +57,8 @@
 
 
 .bg-colorpersonal {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 24px;
     font-weight: bold;
     background-color: #198754;
@@ -68,7 +70,7 @@
 }
 
 #uno {
-    width: 20%;
+    width: 30%;
     height: 20%;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -268,8 +270,8 @@
     flex-direction: row; 
     justify-content: space-between; 
     flex-wrap: wrap; 
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
   
   .map-container {
@@ -281,6 +283,7 @@
   
 .contact-container {
     display: flex;
+    flex: wrap;
     flex: 1; 
     max-width: 100%; 
     justify-content: center;
@@ -288,7 +291,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 0px;
-    height: 100vh;
+    max-height: 100vh;
     font-family: serif;
     font-size: 2em;
     
