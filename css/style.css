@@ -15,7 +15,7 @@
 @keyframes slideLeft {
     from {
         opacity: 0;
-        transform: translateX(-100%);
+        transform: translateX(-250%);
        
     }
 
@@ -58,7 +58,7 @@
 
 .bg-colorpersonal {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-size: 24px;
     font-weight: bold;
     background-color: #198754;
@@ -72,6 +72,7 @@
 #uno {
     width: 30%;
     height: 20%;
+    marginleft: ;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -86,7 +87,7 @@
 @keyframes slideRightToLeft {
     from {
         opacity: 0;
-        transform: translateX(100%);
+        transform: translateX(250%);
        
     }
 
@@ -265,12 +266,52 @@
     background-color: #8d1812;
 
 }
+    .containerMap {
+        display: flex;
+        flex-direction: column; /* Cambia a columna */
+        align-items: center; /* Centra verticalmente */
+        text-align: center; /* Centra horizontalmente */
+      }
+      
+      .map-container {
+        max-width: 100%;
+        
+      }
+      
+      .contact-container {
+        max-width: 100%;
+        max-height: 100%;
+        font-family: serif;
+        font-size: 1.5em;
+      }
+      
+      .contact-p {
+        background: radial-gradient(circle at center, #3498db, #297fb980);
+        border-radius: 20px;
+        margin-top: 3em;
+        margin-bottom: 5em;
+        border: 5px solid #1d5d43;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: #e0dfdf;
+        font-style: italic;
+      }
+      
+      .contact-p:hover {
+        color: whitesmoke;
+      }
+      
+
+    
+
+/* }
 .containerMap {
     display: flex;
     flex-direction: row; 
     justify-content: space-between; 
     flex-wrap: wrap; 
-    margin-left: 1em;
+    margin-left: 0em;
     margin-right: 1em;
   }
   
@@ -293,7 +334,7 @@
     padding: 0px;
     max-height: 100vh;
     font-family: serif;
-    font-size: 2em;
+    font-size: 1.5em;
     
 
 }
@@ -301,7 +342,7 @@
 .contact-p {
         background: radial-gradient(circle at center, #3498db, #297fb980);
         border-radius: 20px;
-        margin-top: 2em;
+        margin-top: 3em;
         border: 5px solid #1d5d43; 
         box-sizing: border-box;
         text-align: center;
@@ -313,7 +354,7 @@
       
       .contact-p:hover {
         color:whitesmoke;
-    }
+    } */
     
 
 .footer1 {
@@ -611,7 +652,6 @@
     .despacho{
         max-width: 150%;
         max-height: none;
-        /* width: 500px; */
         height: 300px;
         margin-bottom: 2em;
         margin-left: -3em;
@@ -631,17 +671,15 @@
         margin-left: 0%;
     }
 
-    .containerMap{
+    .map-iframe{
         margin-left: 0%;
-    
     }
 
-  
     .contact-container{
     margin-top: 6em;
     max-width: 100%;
     font-size: 1.5em;
-    margin-left: 22%;
+    margin-left: 2%;
     } 
     
     #contenedor-formulario {
@@ -666,31 +704,6 @@
     }
 
 }
-/* 
-.servicio-fila {
-    width: 100% !important;
-    text-align: center;
-}
 
-.logo2{
-    padding: 0%;
-    padding-bottom: 1em;
-}
 
-#seccion-contacto{
-    margin-left: 0%;
-    max-width: 80%;
-}
-
-/* parrafo de contacto*/
-
-/* #contenedor-formulario {
-    background-color: #6699cc6c;
-    border-radius: 5px;
-    padding-top: 1em    ;
-    color:black;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
-}
- */
+  

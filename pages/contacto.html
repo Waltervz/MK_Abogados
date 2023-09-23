@@ -28,7 +28,7 @@
 
 <body  style="background-image: url('../img/background.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; ">
 
-  <nav class="navbar navbar-expand-lg  bg-body-tertiary margin lead" id="navClass">
+  <nav class="navbar navbar-expand-lg   bg-body-tertiary margin lead" id="navClass">
     <div class="container-fluid  d-flex justify-content-center" id="navBar">
       <a class="navbar-brand py-md-1 text-personal text-white" href="../index.html">
         <img src="../img/logo_mk_circle.png" alt=""></a>
@@ -73,7 +73,25 @@
     <div class="tab-content " id="pills-tabContent">
       <div class="tab-pane fade show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
         tabindex="0">
-        <div class="containerMap">
+
+        <div class="container">
+          <div class="containerMap">
+            <div class="map-container">
+              <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22448697.722206652!2d-85.5182246290146!3d-46.62044885983423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses!2sar!4v1694232443987!5m2!1ses!2sar" width="320" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+            <div class="contact-container text-center mt-4">
+              <p class="contact-p">
+                <span>"En Marketing Digital - Abogados/as, comprendemos que el éxito legal requiere excelencia legal y estrategias de marketing efectivas. Nuestra firma, liderada por un CEO Abogado especializado en Marketing, destaca en promoción digital legal en toda Argentina. Con conocimiento local y experiencia en marketing, creamos estrategias que aumentan visibilidad, generan oportunidades y construyen reputación. Confíe en nosotros como su socio digital en el mercado legal Argentino del siglo XXI."
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+
+<!--         
+        <div class="containerMap ">
           <div class="map-container">
             <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22448697.722206652!2d-85.5182246290146!3d-46.62044885983423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses!2sar!4v1694232443987!5m2!1ses!2sar" width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
@@ -85,10 +103,42 @@
             </p>
           </div>
         </div>
-        
+      -->
       </div>
 
- 
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <section>
+          <div class="container" id="contenedor-formulario">
+            <div id="titulo-formulario" class="text-center mb-4">
+              <div><img src="../img/logo_mk_circle.png" alt="soporte" class="img-fluid"></div>
+              <h2>Contactanos</h2>
+              <p class="fs-5">"Transformamos sueños legales en realidades digitales"</p>
+              <div>
+                <form action="https://formsubmit.co/mktdigital@abogados.com" method="POST">
+                  <div class="mb-3">
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Escriba su e-mail" required>
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" name="name" class="form-control" id="nombre" placeholder="Escriba su nombre y apellido" required>
+                  </div>
+                  <div class="mb-3">
+                    <input type="tel" name="cel" class="form-control" id="tel" placeholder="Escriba su telefono" required>
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Dejenos su consulta"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <button type="submit" class="btn btn-primary w-100 fs-5">Enviar consulta</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+<!--  
+  
     </div>
     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
       <section>
@@ -100,24 +150,23 @@
             <p class="fs-5">"Transformamos sueños legales en realidades digitales"</p>
 
             <div>
-              <form action="">
+              <form action="form action=https://formsubmit.co/waltervz278@gmail.com" method="POST">
                 <div class="mb-3">
-                  <input type="email" class="form-control" id="email" placeholder="Escriba su e-mail" required>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Escriba su e-mail" required>
                 </div>
                 <div class="mb-3">
-                  <input type="text" class="form-control" id="nombre" placeholder="Escriba su nombre y apellido"
+                  <input type="text" name= "name" class="form-control" id="nombre" placeholder="Escriba su nombre y apellido"
                     required>
                 </div>
                 <div class="mb-3">
-                  <input type="tel" class="form-control" id="tel" placeholder="Escriba su telefono" required>
+                  <input type="tel" name="cel" class="form-control" id="tel" placeholder="Escriba su telefono" required>
                 </div>
                 <div class="mb-3">
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
                     placeholder="Dejenos su consulta"></textarea>
                 </div>
                 <div class="mb-3">
-                  <button type="button" class="btn btn-primary
-             w-100 fs-5">Enviar consulta</button>
+                  <button type="button" class="btn btn-primary w-100 fs-5">Enviar consulta</button>
                 </div>
               </form>
             </div>
@@ -125,7 +174,7 @@
       </section>
     </div>
 
-  </div>
+  </div> -->
 
   <!--Formulario-->
 
