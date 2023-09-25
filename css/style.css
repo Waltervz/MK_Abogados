@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+#arriba{
+           
+    background-image:url(../img/198a102f-9e6e-4969-b54c-47c34c6e925e.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: ;
+} 
 
 .img-fluid {
 
@@ -645,8 +653,9 @@
     } 
 
     #arriba {
-        display: block;
-        text-align: center;
+   
+     display: block;
+     text-align: center;
     }
 
     .despacho{
